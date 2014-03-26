@@ -39,6 +39,10 @@ describe('highlight-objectiveC', function(){
     test('@implementation Whatever', '<span class="class"><span class="keyword">@implementation</span> Whatever</span>');
   })
 
+  it('should match strings', function(){
+    test('"string"', '<span class="string">&quot;string&quot;</span>');
+  })
+
   it('should match keywords', function(){
     test('void', '<span class="keyword">void</span>');
   })

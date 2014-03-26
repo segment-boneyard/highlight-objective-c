@@ -57,7 +57,7 @@ objectiveC.number = /\b@?[-+]?(0x[A-Fa-f0-9]+|\d+)\b/;
  * Strings
  */
 
-objectiveC.string = /(@?"(\\?.)*?\2)/;
+objectiveC.string = /(@?"(\\?.)*?")/;
 
 /**
  * Operator
