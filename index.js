@@ -13,7 +13,9 @@ module.exports = objectiveC;
  */
 
 function objectiveC(highlight){
-  highlight.language('objective-c', objectiveC);
+  highlight
+    .language('objective-c', objectiveC)
+    .language('objc', objectiveC);
 }
 
 /**
